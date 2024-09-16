@@ -1,0 +1,57 @@
+header{
+    z-index: 999;
+    width: 90%;
+    position: fixed;
+    height: 100px;
+    margin: auto;
+    left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    text-decoration: none;
+    color: burlywood;
+    margin-right: 30px;
+    border: 1px solid burlywood;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+header a:hover{
+    color: black;
+    background-color: burlywood;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color: burlywood;
+}
+.logo h5{
+    margin-left: 5px;
+}
+.logo h4{
+    margin-top: -20px;
+}
+.logo span{
+    font-size: 70px;
+    margin-left: 30px;
+    font-family: 'Italianno';
+}
+
+/* hero */
+.hero{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../assets/coffeeback.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero h2, p{
+    margin-left: 100px;
+}
